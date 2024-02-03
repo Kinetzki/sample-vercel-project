@@ -1,0 +1,9 @@
+{
+    "version": 1,
+    "builds": [
+      { "src": "app.py", "use": "@mrFrost/python" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/app.py" }
+    ]
+  }
